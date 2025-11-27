@@ -71,7 +71,7 @@ nav{
 .nav-toggle-label{
     font-size: 2rem;
 }
-/*main*/
+/*main content*/
 main{
     background-color: lightblue;
     /*Make main element take up any surplus space to down*/
@@ -81,4 +81,24 @@ main{
 /*footer*/
 footer{
     background-color: orange;
+}
+/*Media query: tablets and larger 768px and up*/
+@media screen and (min-width:768px) {
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu >li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
 }
