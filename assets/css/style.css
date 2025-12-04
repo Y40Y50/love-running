@@ -181,8 +181,7 @@
         text-align: end;
         align-self: flex-end;
       }
- }
-
+ 
  #reasons {
      width: 90%;
      margin: 20px auto;
@@ -224,6 +223,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+}
+ /*add imegs to meetups*/
+ #times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+ }
+#times div {
+    color: #fafafa;
+    background-color: rgb(0, 0, 0,.6);
+    padding: 15px;
+    text-align: center;
+    /*this will not wrap on screens of less then 400px wide*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*creates a grid of meetup time dives over the background imege*/
+    border:2px solid white;
+}
+#times h3 {
+    color: #fafafa;
 }
  /*Hero*/
  #cover-text {
