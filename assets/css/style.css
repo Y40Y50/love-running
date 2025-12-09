@@ -26,7 +26,17 @@
      letter-spacing: 2px;
      color: #252525;
  }
-
+ .hidden-heading {
+    display: none;
+ }
+ /*gallery page*/
+ #photos img {
+    width: 100%;
+    line-height: 2em;
+ }
+#photos {
+    line-height: 0;
+}
  /*header*/
  header {
      background-color: #ffffff;
